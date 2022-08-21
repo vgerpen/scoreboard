@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    background-color: darkblue;
+    color: #EEEEEE;
+}
+
+@font-face {
+  src: url(/cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf);
+  font-family: cursed;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score-lights {
+    background-color: #080001;
+    width: 125px;
+    height: 125px;
+    font-size: 25px;
+    font-family: cursed;
+    color: red;
+    padding-top: 5px;
+    text-align: center; 
+}
+
+button {
+    font-family: cursed;
+}
+
+h3 {
+    text-align: center;
+}
